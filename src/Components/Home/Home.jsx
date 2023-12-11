@@ -1,26 +1,39 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Container from "../../Shared/Contailner";
 import AboutMe from "../AboutMe/AboutMe";
 import Navbar from "../Navbar/Navbar";
+import AboutMeDetails from "../AboutMeDetails/AboutMeDetails";
 
 
 const Home = () => {
     const [currentSection, setCurrentSection] = useState('home');
-    const handleScroll = () => {
-        const aboutMeSection = document.getElementById('home')
 
+    const handleScroll = useCallback(() => {
+        const sections = ['home', 'about-me', 'skills', 'experience', 'projects', 'education', 'contact'];
 
-        const scrollPosition = window.scrollY + window.innerHeight / 2
-        if (aboutMeSection && scrollPosition >= aboutMeSection.offsetTop) {
-            setCurrentSection('home')
+        const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+        for (const section of sections) {
+            const sectionElement = document.getElementById(section);
+
+            if (sectionElement && scrollPosition >= sectionElement.offsetTop) {
+                setCurrentSection(section);
+                break;
+            }
         }
-    }
+    }, [setCurrentSection]);
+
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
+        window.addEventListener('scroll', handleScroll);
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [])
+    }, [handleScroll]);
+
+    useEffect(() => {
+        console.log('Current Section:', currentSection);
+    }, [currentSection]);
 
     const scrollToSection = (section) => {
         const sectionElement = document.getElementById(section);
@@ -35,6 +48,7 @@ const Home = () => {
             <div className="mt-20">
                 <Container>
                     <AboutMe></AboutMe>
+                    <AboutMeDetails></AboutMeDetails>
                 </Container>
             </div>
         </div>
