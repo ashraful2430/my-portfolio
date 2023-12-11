@@ -1,9 +1,10 @@
 import Container from "../../Shared/Contailner";
 import NavBarLink from "./NavBarlink";
 import Sidebar from "./Sidebar";
+import PropTypes from 'prop-types';
 
 
-const Navbar = () => {
+const Navbar = ({ currentSection, scrollToSection }) => {
     return (
         <div className="drawer">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -17,16 +18,21 @@ const Navbar = () => {
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2">Code Crafter</div>
-                        <NavBarLink></NavBarLink>
+                        <NavBarLink scrollToSection={scrollToSection} currentSection={currentSection}></NavBarLink>
                     </Container>
                 </div>
             </div>
             <div className="drawer-side mt-12">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-                <Sidebar></Sidebar>
+                <Sidebar scrollToSection={scrollToSection} currentSection={currentSection} ></Sidebar>
             </div>
         </div>
     );
+};
+
+Navbar.propTypes = {
+    currentSection: PropTypes.string.isRequired,
+    scrollToSection: PropTypes.func.isRequired
 };
 
 export default Navbar;
