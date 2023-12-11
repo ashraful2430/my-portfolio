@@ -4,15 +4,16 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Education = () => {
     return (
-        <div>
+        <div id="education">
             <h3 className="text-4xl text-center my-10">My <span className="text-[#66B888]">Education</span></h3>
             <div className="flex justify-center items-center gap-8 my-2">
                 <div>
                     <Lottie className="w-96 h-96" animationData={education}></Lottie>
                 </div>
                 <div>
-                    <div className="border-b-2 border-black">
-                        <h3 className="text-xl font-medium">High School :Bangladesh Railway High School </h3>
+                    <div className="">
+                        <h3 className="text-xl font-medium">Senior School Certificate </h3>
+                        <p className="text-lg my-2">School: Bangladesh Railway High School</p>
                         <div className="flex gap-3 items-center text-lg mt-2">
                             <p><FaLocationArrow /></p>
                             <p> Bhairab , Kishargang , Dhaka </p>

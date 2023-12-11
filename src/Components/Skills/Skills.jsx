@@ -6,7 +6,7 @@ import skill from "../../assets/skills.json"
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skills">
             <h3 className="text-center text-4xl font-medium my-10">My <span className="text-[#66B888]">Skills</span></h3>
             <div className="flex flex-col lg:flex-row-reverse justify-center  items-center gap-5">
                 <div>
@@ -62,7 +62,7 @@ const Skills = () => {
                             </div>
                             <div className="bg-gray-200 rounded-md shadow-xl p-5 mx-auto my-3">
                                 <SiNetlify className="text-6xl text-green-500" />
-                                <p className="text-center mt-3">Git</p>
+                                <p className="text-center mt-3">Netlify</p>
                             </div>
                         </div>
                     </div>
