@@ -6,7 +6,7 @@ const Education = () => {
     return (
         <div id="education">
             <h3 className="text-4xl text-center my-10">My <span className="text-[#66B888]">Education</span></h3>
-            <div className="flex justify-center items-center gap-8 my-2">
+            <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-8 my-2">
                 <div>
                     <Lottie className="w-96 h-96" animationData={education}></Lottie>
                 </div>

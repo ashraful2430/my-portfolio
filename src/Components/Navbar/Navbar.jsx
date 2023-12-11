@@ -22,7 +22,7 @@ const Navbar = ({ currentSection, scrollToSection }) => {
                     </Container>
                 </div>
             </div>
-            <div className="drawer-side mt-12">
+            <div className="drawer-side mt-12 z-50">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <Sidebar scrollToSection={scrollToSection} currentSection={currentSection} ></Sidebar>
             </div>
