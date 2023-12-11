@@ -1,9 +1,9 @@
 
 
-const NavLink = () => {
+const NavBarLink = () => {
     return (
         <div className="flex-none hidden lg:block">
-            <ul className="menu menu-horizontal">
+            <div className="menu menu-horizontal">
                 <li><a>Home</a></li>
                 <li><a>Skills</a></li>
                 <li><a>Experience</a></li>
@@ -11,9 +11,9 @@ const NavLink = () => {
                 <li><a>Education</a></li>
                 <li><a>Contact me</a></li>
 
-            </ul>
+            </div>
         </div>
     );
 };
 
-export default NavLink;
+export default NavBarLink;
