@@ -8,7 +8,9 @@ const MainLayout = () => {
         <div>
             <Home></Home>
             <Outlet></Outlet>
-            <Footer></Footer>
+            <div className="h-[100vh-60px] mt-10">
+                <Footer></Footer>
+            </div>
         </div>
     );
 };
