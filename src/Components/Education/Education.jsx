@@ -1,6 +1,5 @@
 import Lottie from "lottie-react";
 import education from "../../assets/education.json"
-import { FaLocationArrow } from "react-icons/fa";
 
 const Education = () => {
     return (
@@ -12,23 +11,32 @@ const Education = () => {
                 </div>
                 <div>
                     <div className="">
-                        <h3 className="text-xl font-medium">Senior School Certificate </h3>
-                        <p className="text-lg my-2">School: Bangladesh Railway High School</p>
-                        <div className="flex gap-3 items-center text-lg mt-2">
-                            <p><FaLocationArrow /></p>
-                            <p> Bhairab , Kishargang , Dhaka </p>
+                        <div className="card ">
+                            <div className="card-body">
+                                <h2 className="card-title">Secondary School Certificate (SSC)</h2>
+                                <p>Bangladesh Railway High School</p>
+                                <div className="flex items-center text-lg mt-2">
+                                    <p>Location: Bhairab , Kishargang , Dhaka </p>
+                                </div>
+                                <p className="text-lg mt-2">Group : Science</p>
+                                <p className="text-lg mt-2">Marks : 4.44 GPA</p>
+                            </div>
                         </div>
-                        <p className="text-lg mt-2">Group : Science</p>
-                        <p className="text-lg mt-2">Marks : 4.44 GPA</p>
+
                     </div>
-                    <div className="mt-5">
-                        <h3 className="text-xl font-medium">College :Chittagong PolyTechnich Institution </h3>
-                        <div className="flex gap-3 items-center text-lg mt-2">
-                            <p><FaLocationArrow /></p>
-                            <p> 2 NO gate , Technical Mor , Chittagong </p>
+                    <div className="">
+                        <div className="card ">
+                            <div className="card-body">
+                                <h2 className="card-title">Polytechnic Institute.</h2>
+                                <p>Chittagong PolyTechnich Institution</p>
+                                <div className="flex items-center text-lg mt-2">
+                                    <p>Location: Bhairab , Kishargang , Dhaka </p>
+                                </div>
+                                <p className="text-lg mt-2">Technology : Computer Science</p>
+                                <p className="text-lg mt-2">Marks : Still Running</p>
+                            </div>
                         </div>
-                        <p className="text-lg mt-2">Technology : Computer Science</p>
-                        <p className="text-lg mt-2">Marks : Still Running</p>
+
                     </div>
                 </div>
             </div>
