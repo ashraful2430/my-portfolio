@@ -23,6 +23,7 @@ const AboutMe = () => {
                 <a
                     className="group relative inline-flex items-center overflow-hidden rounded bg-[#66B888] px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
                     href="https://drive.google.com/file/d/1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W/view?usp=sharing"
+                    target="_blank" rel="noreferrer"
                 >
                     <span className="absolute -start-full transition-all group-hover:start-4">
                         <FaEye></FaEye>
@@ -34,6 +35,7 @@ const AboutMe = () => {
                     className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-[#66B888] focus:outline-none focus:ring active:text-indigo-500"
                     href="https://drive.google.com/u/0/uc?id=1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W&export=download"
                     download="Ashraful Islam Ashik Resume.pdf"
+                    target="_blank" rel="noreferrer"
                 >
                     <span className="absolute -start-full transition-all group-hover:start-4">
                         <FaDownload />

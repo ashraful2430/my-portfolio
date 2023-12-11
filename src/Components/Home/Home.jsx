@@ -3,6 +3,7 @@ import Container from "../../Shared/Contailner";
 import AboutMe from "../AboutMe/AboutMe";
 import Navbar from "../Navbar/Navbar";
 import AboutMeDetails from "../AboutMeDetails/AboutMeDetails";
+import Skills from "../Skills/Skills";
 
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
                 <Container>
                     <AboutMe></AboutMe>
                     <AboutMeDetails></AboutMeDetails>
+                    <Skills></Skills>
                 </Container>
             </div>
         </div>

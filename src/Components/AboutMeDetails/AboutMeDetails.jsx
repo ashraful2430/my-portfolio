@@ -12,7 +12,7 @@ const AboutMeDetails = () => {
                     <Lottie className='w-96' animationData={aboutMe}></Lottie>
                 </div>
                 <div className='my-4'>
-                    <p className=' mb-4 md:text-xl'>
+                    <p className='mb-4 md:text-xl'>
                         👋 Hello There ! I m <span className='text-[#66B888]'>Ashraful Islam Ashik</span>
                     </p>
                     <p>I am a dynamic junior MERN (MongoDB, Express.js, React.js, Node.js) stack developer with a fervor for crafting captivating web experiences. As a tech enthusiast, I specialize in building responsive and user-friendly applications, leveraging the power of modern web technologies.</p>
