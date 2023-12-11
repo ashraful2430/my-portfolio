@@ -4,6 +4,8 @@ import AboutMe from "../AboutMe/AboutMe";
 import Navbar from "../Navbar/Navbar";
 import AboutMeDetails from "../AboutMeDetails/AboutMeDetails";
 import Skills from "../Skills/Skills";
+import Experience from "../Experience/Experience";
+import Education from "../Education/Education";
 
 
 const Home = () => {
@@ -32,9 +34,7 @@ const Home = () => {
         };
     }, [handleScroll]);
 
-    useEffect(() => {
-        console.log('Current Section:', currentSection);
-    }, [currentSection]);
+
 
     const scrollToSection = (section) => {
         const sectionElement = document.getElementById(section);
@@ -51,6 +51,8 @@ const Home = () => {
                     <AboutMe></AboutMe>
                     <AboutMeDetails></AboutMeDetails>
                     <Skills></Skills>
+                    <Experience></Experience>
+                    <Education></Education>
                 </Container>
             </div>
         </div>
