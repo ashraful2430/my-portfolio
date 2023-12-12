@@ -4,7 +4,7 @@ import experience from "../../assets/experience.json"
 const Experience = () => {
     return (
         <div id="experience">
-            <h3 className="text-4xl text-center mt-10 "><span className="text-[#66B888]">My</span> Experience</h3>
+            <h3 className="text-4xl text-center mt-10 font-semibold "><span className="text-[#66B888]">My</span> Experience</h3>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-9 font-medium">
                 <div>
                     <Lottie className="w-96 h-96" animationData={experience}></Lottie>

@@ -6,6 +6,7 @@ import AboutMeDetails from "../AboutMeDetails/AboutMeDetails";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
+import AllProjects from "../Projects/AllProjects";
 
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
                     <AboutMe></AboutMe>
                     <AboutMeDetails></AboutMeDetails>
                     <Skills></Skills>
+                    <AllProjects></AllProjects>
                     <Experience></Experience>
                     <Education></Education>
                 </Container>

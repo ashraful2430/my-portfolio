@@ -20,29 +20,33 @@ const AboutMe = () => {
             </div>
             <div className="flex justify-center items-center gap-2 lg:gap-7 mt-5">
 
-                <a
-                    className="group relative inline-flex items-center overflow-hidden rounded bg-[#66B888] px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
-                    href="https://drive.google.com/file/d/1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W/view?usp=sharing"
-                    target="_blank" rel="noreferrer"
-                >
-                    <span className="absolute -start-full transition-all group-hover:start-4">
-                        <FaEye></FaEye>
-                    </span>
+                <div>
+                    <a
+                        className="group relative inline-flex items-center overflow-hidden rounded bg-[#66B888] px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+                        href="https://drive.google.com/file/d/1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W/view?usp=sharing"
+                        target="_blank" rel="noreferrer"
+                    >
+                        <span className="absolute -start-full transition-all group-hover:start-4">
+                            <FaEye></FaEye>
+                        </span>
 
-                    <span className="text-sm font-medium transition-all group-hover:ms-4"> See Resume </span>
-                </a>
-                <a
-                    className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-[#66B888] focus:outline-none focus:ring active:text-indigo-500"
-                    href="https://drive.google.com/u/0/uc?id=1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W&export=download"
-                    download="Ashraful Islam Ashik Resume.pdf"
-                    target="_blank" rel="noreferrer"
-                >
-                    <span className="absolute -start-full transition-all group-hover:start-4">
-                        <FaDownload />
-                    </span>
+                        <span className="text-sm font-medium transition-all group-hover:ms-4"> See Resume </span>
+                    </a>
+                </div>
+                <div>
+                    <a
+                        className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-[#66B888] focus:outline-none focus:ring active:text-indigo-500"
+                        href="https://drive.google.com/u/0/uc?id=1SaT9USxjw2FiR6wAl3NpXe1LIdXMoj1W&export=download"
+                        download="Ashraful Islam Ashik Resume.pdf"
+                        target="_blank" rel="noreferrer"
+                    >
+                        <span className="absolute -start-full transition-all group-hover:start-4">
+                            <FaDownload />
+                        </span>
 
-                    <span className="text-sm font-medium transition-all group-hover:ms-4"> Download Resume </span>
-                </a>
+                        <span className="text-sm font-medium transition-all group-hover:ms-4"> Download Resume </span>
+                    </a>
+                </div>
 
             </div>
         </div>
