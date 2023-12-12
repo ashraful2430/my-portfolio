@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import toast from "react-hot-toast";
 
 const ContactMe = () => {
   const form = useRef();
@@ -16,7 +17,10 @@ const ContactMe = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result);
+          if (result.status === 200) {
+            toast.success("Message sent successfully");
+          }
         },
         (error) => {
           console.log(error.text);
