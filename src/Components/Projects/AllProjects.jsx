@@ -1,6 +1,6 @@
 import chatCanvas from "../../assets/chat-canvas1.png"
 import ChatCanvas from "./ChatCanvas";
-import LearnItWritIt from "../../assets/learnit.png"
+import LearnItWritIt from "../../assets/learnit1.png"
 import LearnIt from "./LearnIt";
 import Tech from "../../assets/tech1.png"
 import TechTrend from "./TechTrend";
