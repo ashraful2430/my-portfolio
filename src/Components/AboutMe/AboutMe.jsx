@@ -21,23 +21,25 @@ const AboutMe = () => {
           ASHRAFUL ISLAM ASHIK
         </h1>
         <h1 className="text-2xl lg:text-4xl font-bold mt-2 lg:mt-4">
-          MERN Stack Developer
+          Junior DevOps Engineer
         </h1>
+        <p class="mt-4 text-lg italic text-gray-600 border-l-4 border-blue-500 pl-4">
+          "Building scalable cloud systems | Automating deployments | Driving efficiency with DevOps"
+        </p>
         <p className="mt-2 lg:mt-4">
           Hello there! I am{" "}
           <span className="font-bold text-[#66B888]">ASHRAFUL ISLAM ASHIK</span>
-          , a dynamic and enthusiastic junior MERN stack developer on a mission
-          to transform innovative ideas into robust, user-friendly web
-          applications. With a solid foundation in MongoDB, Express.js,
-          React.js, and Node.js, I thrive on turning complex problems into
-          elegant, efficient solutions.
+          ,  a Junior DevOps Engineer with 1.5+ years of hands-on experience in AWS, Terraform, Kubernetes, Ansible, and CI/CD automation.
+          I specialize in designing resilient cloud infrastructure, streamlining deployments, and ensuring scalability through containerization and modern DevOps practices.
+          Passionate about automation and efficiency, I thrive on solving complex cloud challenges and mentoring others in best practices.
+
         </p>
       </div>
       <div className="flex justify-center items-center gap-2 lg:gap-7 mt-5">
         <div>
           <a
             className="group relative inline-flex items-center overflow-hidden rounded bg-[#66B888] px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
-            href="https://drive.google.com/file/d/19V1Wjg_fxyW7044gOUMVmUVWrAblWmX7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d8hiVx9zFzWNxReLttSf4--uo_rWtrA4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +56,7 @@ const AboutMe = () => {
         <div>
           <a
             className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-[#66B888] focus:outline-none focus:ring active:text-indigo-500"
-            href="https://drive.usercontent.google.com/u/0/uc?id=19V1Wjg_fxyW7044gOUMVmUVWrAblWmX7&export=download"
+            href="https://drive.usercontent.google.com/u/0/uc?id=1d8hiVx9zFzWNxReLttSf4--uo_rWtrA4&export=download"
             download="Ashraful Islam Ashik Resume.pdf"
             target="_blank"
             rel="noreferrer"
